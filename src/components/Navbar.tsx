@@ -5,10 +5,6 @@ import React from 'react'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  }
-
   return (
 <div className="bg-gradient-to-b from-pink-200 to-pink-700">
       <div className="max-w-screen-xl mx-auto px-4 py-5">
