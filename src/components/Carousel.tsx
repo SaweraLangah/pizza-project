@@ -50,7 +50,7 @@ export default function Carousel() {
                 <div className="bg-gradient-to-r from-pink-700 to-pink-200 flex flex-col">
                 <a href=""
                 className="group relative flex overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                  <Image src="/images/WhatsApp Image 2024-12-31 at 6.37.40 AM.jpeg" 
+                  <Image src="/images/Pizza.jpeg" 
                   alt="4" 
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   height={500}
@@ -63,7 +63,7 @@ export default function Carousel() {
                  <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 bg-gradient-to-r from-pink-700 to-pink-200">
                   <a href="" 
                   className="flex group relative overflow-hidden rounded-lg px-4 pb-4 pt-40 ">
-                    <Image src="/images/greek-pizza-21-001.jpg" 
+                    <Image src="/images/Pizza6.jpg" 
                     alt="5" 
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                     height={1700}
@@ -84,7 +84,7 @@ export default function Carousel() {
                  <div className="bg-gradient-to-r from-pink-700 to-pink-200 flex flex-col">
                 <a href=""
                 className="group relative flex overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                 <Image src="/images/WhatsApp Image 2024-12-31 at 6.37.41 AM.jpeg" 
+                 <Image src="/images/Pizza5.jpeg" 
                   alt="7" 
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   height={500}

@@ -4,21 +4,21 @@ export default function handler (req, res) {
         id: 1,
         name: "Cheezy Pizza",
         price: 100,
-        image: "/images/WhatsApp Image 2025-01-01 at 3.23.42 AM (2).jpeg"
+        image: "/images/Pizza7.jpeg"
     },
 
     {
         id: 2,
         name: "Hearty Pizza ",
         price: 200,
-        image: "/images/WhatsApp Image 2025-01-01 at 3.23.42 AM.jpeg"
+        image: "/images/Pizza8.jpeg"
     },
 
     {
         id: 3,
         name: "Tikka Pizza ",
         price: 350,
-        image: "/images/WhatsApp Image 2024-12-31 at 6.37.41 AM.jpeg"
+        image: "/images/Pizza4.jpeg"
     },
 
     {
@@ -39,7 +39,7 @@ export default function handler (req, res) {
         id: 6,
         name: "Spicy Pizza",
         price: 650,
-        image: "/images/WhatsApp Image 2025-01-01 at 3.23.42 AM (2).jpeg"
+        image: "/images/Pizza2.jpeg"
     },
 ];
 
