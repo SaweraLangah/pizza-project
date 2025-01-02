@@ -16,18 +16,18 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
             <h1 className="text-purple-800 hover:text-pink-700 font-serif font-extrabold sm:text-xl lg:text-2xl text-2xl">
-              ICECREAMO!
+             Pizzato!
             </h1>
           </div>
 
           <div className="hidden lg:flex items-center gap-4">
             <p className="text-sm text-white">
-              Order now and get it within <span className="text-pink-800">30 Minutes!</span>
+              Order now and get it within <span className="text-orange-800">15 Minutes!</span>
             </p>
           </div>
 
           <div className="lg:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-purple-800 hover:text-pink-700">
+            <button onClick={toggleMenu} className="text-orange-800 hover:text-pink-800">
               <svg
                 className="w-6 h-6"
                 fill="none"
