@@ -3,7 +3,6 @@ import { useState } from 'react';
 import React from 'react'
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
 <div className="bg-gradient-to-b from-pink-200 to-pink-700">
