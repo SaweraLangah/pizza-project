@@ -1,40 +1,47 @@
+'use client'
+import { useState } from 'react';
 import React from 'react'
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  }
+
   return (
-
-
-    <div className="grid xl:grid-cols-1 grid-cols-1">
-      <div className="p-5">
-        <div className="py-3 px-3 rounded-xl border  w-full">
-          <div className="flex justify-between items-center">
-            <div className="flex justify-items-center items-center gap-2">
-
-             
-              {/*search icon*/}
-              <div style={{ position: 'relative' }}>
-                <input className="rounded-3xl py-3 px-3 outline-none text-xs w-[350px] pr-10  ld:block md:block"
-                  placeholder="search for your favourite pizza from menu." />
-
-               
-              </div>
-            </div>
-            <div className="flex justify-center items-center gap-2">
-
-             
-              <p className="text-sm text-white lg:block md:block">order now and get it with
-                <span className="text-sky-400"> 15 minutes!</span>
-              </p>
-
-              {/*cart icon*/}
-             
-
-            </div>
+<div className="bg-gradient-to-b from-pink-200 to-pink-700">
+      <div className="max-w-screen-xl mx-auto px-4 py-5">
+       <div className="py-3 px-3 rounded-xl border w-full">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center gap-4">
+            <h1 className="text-purple-800 hover:text-pink-700 font-serif font-extrabold sm:text-xl lg:text-2xl text-2xl">
+              ICECREAMO!
+            </h1>
           </div>
+
+          <div className="hidden lg:flex items-center gap-4">
+            <p className="text-sm text-white">
+              Order now and get it within <span className="text-pink-800">30 Minutes!</span>
+            </p>
+          </div>
+
+          <div className="lg:hidden flex items-center">
+            <button onClick={toggleMenu} className="text-purple-800 hover:text-pink-700">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
         </div>
       </div>
     </div>
-
-
   );
 }
